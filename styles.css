@@ -1,0 +1,132 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	background: #32323c;
+}
+
+/** Layout **/
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+#game {
+	float: left;
+/*	border-right: thin solid #ff0000;
+*/	width: 50%;
+/*	padding: 30px;
+*/
+}
+
+#stats {
+	float: left;
+	width: 50%;
+}
+
+/* Fonts / Headings */
+
+h1 {
+	font-size: 52px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+
+h3 {
+	color: white;
+	font-size: 24px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+
+.title {
+	color: white;
+}
+
+#enter {
+	float:left;
+	padding-left: 30px;
+}
+#input {
+	margin-top: 13px;
+	width: 150px;
+	height: 30px;
+	border: solid 5px #c9c9c9;
+	box-shadow: inset 0 0 0 1px #707070;
+	padding: 5px 10px 5px 10px;
+	outline: none;
+	font-size: 15px;
+}
+
+/** Buttons **/
+
+.buttons {
+	margin-top: 20px;
+	float:left;
+}
+
+button {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	border: 2px solid #1b1b20;
+	border-radius: 2px;
+	outline: none;
+}
+
+button :hover {
+	color: black;
+	border: 1px solid white;
+}
+
+.largebutton {
+	padding: 20px;
+	font-size: 15px;
+	background: transparent;
+	width: 43%;
+	font-size: 20px;
+	color: white;
+
+/*	border:none;
+*//*	outline: none;
+*/}
+
+.smallbutton {
+	width: 43%;
+	background: transparent;
+	font-size: 15px;
+	padding: 5px 20px 5px 20px;
+	font-size: 15px;
+	color: white;
+}
+
+#smallbuttoncontainer {
+	width: 43%;
+	float:left;
+	padding-left: 29px;
+}
+
+#guess {
+	margin-bottom: 10px;
+}
+
+#hint {
+	margin-bottom: 10px;
+}
+
+#easy {
+	width:100%;
+	margin-bottom: 2px;
+}
+
+#hard {
+	width: 100%;
+}
+
+#reset {
+	margin-left: 5px;
+	float:left;
+}
