@@ -71,7 +71,7 @@ h3 {
 	color: #66FF99;
 }
 
-#playAgainPrompt {
+#playAgainPrompt, #correctAnswer {
 	color: white;
 	font-size: 12px;
 }

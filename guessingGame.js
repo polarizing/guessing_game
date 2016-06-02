@@ -93,6 +93,7 @@ $(document).ready(function() {
 			if (remainingGuesses == 0) {
 				$("#enter, #input").hide();
 				$("#lose").show();
+				$("#answer").text(winningNumber);
 				$("#guess, #hint, #easy, #hard").prop("disabled", true).addClass('buttonDisabled');
 			}
 		}
@@ -141,6 +142,7 @@ $(document).ready(function() {
 	    $("#valid, #hintShown").remove();
 	    $("#win, #lose").hide();
 	    $("#enter, #input").show();
+	   	$("#input").val('');
 	    $("#resultChange, #feedbackChange, #prevGuessChange").text('No guess entered.');
 	    $("#numGuessChange").text(numberOfGuesses);
 		$("#remainingGuessChange").text(remainingGuesses);
