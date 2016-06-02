@@ -3,6 +3,7 @@
 <head>
 	<title>Guessing Game</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="jquery-2.2.4.js"></script>
 </head>
 <body>
 
@@ -11,6 +12,10 @@
 		<h1 class="title">Guessing Game</h1>
 		<h3 id="enter">Enter a Guess:</h3>
 		<input id="input" type="number">
+		<div id="win">You win! <br >
+			<span id="playAgainPrompt"> To play again, click 'PLAY AGAIN'.</span></div>
+		<div id="lose">You lose! <br >
+			<span id="playAgainPrompt"> To play again, click 'PLAY AGAIN'.</span></div>
 		<!-- use masonry js package in future-->
 		<div class="buttons">
 			<button class="largebutton" id="guess">Guess</button>
@@ -24,7 +29,19 @@
 	</div>
 	<div id="stats">
 		<h1 class="title">Stats / Log</h1>
+		<div id="statsBox">
+			<p id="result">Result / Status: <span id="resultChange">No guess entered.</span></p>
+			<p id="feedback">Feedback: <span id="feedbackChange">No guess entered.<span></p>
+			<p id="numGuesses">Number of Guesses:  <span id="numGuessChange">0<span></p>
+			<p id="remainingGuesses">Remaining Guesses: <span id="remainingGuessChange">5</span></p>
+			<p id="prevGuesses">Previous Guesses: <span id="prevGuessChange">No guess entered.<span></p>
+		</div>
 	</div>
 <div>
+
+<script src="guessingGame.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
 </body>
 </html>
